@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face{
+    font-family:"Boba.ttf";
+    src: url(fonte/Boba.ttf) format(truetype);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+    color: white;
+}
+.conteiner{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    background-color: #132028;
+
+}    
+
+.left_login{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 10%;   
+}
+
+.logo{
+    font-family: "boba.ttf";
+    font-size: 100px;
+    letter-spacing: 3px;
+    color: #7c51f3;
+}
+
+.book_time{
+    max-width: 500px;
+    width: 100%;
+}
+
+.novo_por{
+    color: #7c51f3;
+}
+
+.cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+}
+.cadastro > button{
+    width: 90px;
+    height: 30px;
+    background-color: #7c51f3;
+    border: none;
+    border-radius: 10px;
+}
+
+.cadastro > button:hover{
+    background-color: #9070e6;
+    cursor: pointer;
+}
+
+.right_login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10%; 
+}
+
+.contorno{
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+    background-color: #14232a;
+    border-radius: 25px;
+    box-shadow: 0px 0px 50px rgba(124, 81, 243, 0.2);
+}
+
+.bem_vindo > h1{
+    color: #7c51f3;
+}
+
+.login_input{
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    
+}
+
+.input{
+    display: grid;
+    
+
+}
+.input > label{
+    display: flex;
+    margin: 5px;
+}    
+
+.input > input{
+    height: 40px;
+    border-radius: 25px;
+    padding: 0px 20px;
+    color: rgb(255, 255, 255);
+    background-color: #132028;
+    outline: none;
+    border: none;
+}
+
+.contorno > button{
+    background-color: #7c51f3;
+    border: none;
+    border-radius: 25px;
+    height: 40px;
+}
+
+.contorno > button:hover{
+    background-color: #9070e6;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #7c51f3;
+}
+.google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #132028;
+    border-radius: 25px;
+}
+
+.google:hover{
+    cursor: pointer;
+    background-color: #14232a;
+    box-shadow: 0px 0px 10px rgba(124, 81, 243, 0.5);
+}
+
+.google > img{
+    width: 10%;
+
+} 
+
+@media screen {
+    
+}

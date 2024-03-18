@@ -1,4 +1,61 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'poppins';
 }
+.conteiner{
+    width: 100vw;
+    height: 100vh; 
+}
+.header{
+    display: grid;
+    width: 100%;
+    height: 20%;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    grid-template-rows: 1fr 1fr;
+}
+
+.cabecalho{
+    width: 98%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1%;
+
+}
+
+.material-symbols-outlined{
+    display: flex;
+    justify-content: end;
+}
+
+.pesquisa_contorno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.pesquisa{
+    width: 350px;
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.pesquisa > span{
+    color: black;
+}
+
+.pesquisa > input{
+    outline: none;
+    border: none;
+    width: 250px;
+    margin-left: 10px;
+}
+
+

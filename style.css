@@ -47,7 +47,7 @@
     color: #7c51f3;
 }
 
-.cadastro{
+.link_cad{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,6 +55,20 @@
     margin: 20px;
 }
 
+.link_cad > button{
+    width: 90px;
+    height: 30px;
+    background-color: #7c51f3;
+    border: none;
+    border-radius: 25px;
+    padding: 3px;
+    min-width: ;
+}
+
+.link_cad > button:hover{
+    background-color: #9070e6;
+    cursor: pointer;
+}
 .contorno > .button{
     width: 100%;
 }
